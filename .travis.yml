@@ -1,0 +1,10 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_intsall:
+  - docker build -t docker-ci -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true docker-ci npm run test

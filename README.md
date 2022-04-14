@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/Maen22/docker-ci.svg?branch=master)](https://app.travis-ci.com/Maen22/docker-ci)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
